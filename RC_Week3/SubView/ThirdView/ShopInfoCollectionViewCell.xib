@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ShopInfoCollectionViewCell" customModule="RC_Week3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="544" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="544" height="162"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gv5-bU-TS2">
+                        <rect key="frame" x="10" y="10" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="ErP-Nd-VTB"/>
+                            <constraint firstAttribute="height" constant="80" id="sOv-Oo-Vbp"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="QOR-rz-wjs">
+                        <rect key="frame" x="100" y="10" width="414" height="142"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name Of Shop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9QG-zs-MbI">
+                                <rect key="frame" x="0.0" y="0.0" width="117" height="35.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rating(Reviews) Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pnd-rw-TIZ">
+                                <rect key="frame" x="0.0" y="35.5" width="193.5" height="35.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MinPrice Delivery cost" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-Lu-6et">
+                                <rect key="frame" x="0.0" y="71" width="169.5" height="35.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delay time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCy-0g-4cJ">
+                                <rect key="frame" x="0.0" y="106.5" width="80" height="35.5"/>
+                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNb-I1-6Vr">
+                        <rect key="frame" x="514" y="70" width="20" height="22"/>
+                        <color key="tintColor" systemColor="systemPinkColor"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" image="x.circle.fill" catalog="system"/>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="mNb-I1-6Vr" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="0Tp-cS-qYh"/>
+                <constraint firstAttribute="trailing" secondItem="mNb-I1-6Vr" secondAttribute="trailing" constant="10" id="6dq-0l-AOl"/>
+                <constraint firstItem="mNb-I1-6Vr" firstAttribute="leading" secondItem="QOR-rz-wjs" secondAttribute="trailing" id="6kN-V0-m9D"/>
+                <constraint firstItem="QOR-rz-wjs" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="F68-I4-ayY"/>
+                <constraint firstItem="gv5-bU-TS2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="PdD-xr-vP2"/>
+                <constraint firstItem="QOR-rz-wjs" firstAttribute="leading" secondItem="gv5-bU-TS2" secondAttribute="trailing" constant="10" id="eVI-ND-9Do"/>
+                <constraint firstItem="gv5-bU-TS2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="nw7-Ae-n9s"/>
+                <constraint firstAttribute="bottom" secondItem="QOR-rz-wjs" secondAttribute="bottom" constant="10" id="wxX-FA-sdE"/>
+            </constraints>
+            <size key="customSize" width="544" height="162"/>
+            <connections>
+                <outlet property="delayTimeLabel" destination="fCy-0g-4cJ" id="rdz-h3-woz"/>
+                <outlet property="deleteBtn" destination="mNb-I1-6Vr" id="iPR-HT-USE"/>
+                <outlet property="descriptionLabel" destination="pnd-rw-TIZ" id="XLQ-kX-InG"/>
+                <outlet property="imageView" destination="gv5-bU-TS2" id="fKZ-J0-FhM"/>
+                <outlet property="nameOfShopLabel" destination="9QG-zs-MbI" id="NsA-zS-ELm"/>
+                <outlet property="priceLabel" destination="ARE-Lu-6et" id="y1J-KD-Naj"/>
+            </connections>
+            <point key="canvasLocation" x="227.536231884058" y="132.58928571428572"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="x.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,21 +9,54 @@
 /* Begin PBXBuildFile section */
 		C68B219427C55E3800D76A20 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B219327C55E3800D76A20 /* AppDelegate.swift */; };
 		C68B219627C55E3800D76A20 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B219527C55E3800D76A20 /* SceneDelegate.swift */; };
-		C68B219827C55E3800D76A20 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B219727C55E3800D76A20 /* ViewController.swift */; };
+		C68B219827C55E3800D76A20 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B219727C55E3800D76A20 /* MainViewController.swift */; };
 		C68B219B27C55E3800D76A20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68B219927C55E3800D76A20 /* Main.storyboard */; };
 		C68B219D27C55E3800D76A20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C68B219C27C55E3800D76A20 /* Assets.xcassets */; };
 		C68B21A027C55E3800D76A20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C68B219E27C55E3800D76A20 /* LaunchScreen.storyboard */; };
+		C68B21A827C55E7300D76A20 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21A727C55E7300D76A20 /* MenuBar.swift */; };
+		C68B21AA27C56DE900D76A20 /* SearchBarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21A927C56DE900D76A20 /* SearchBarCollectionViewCell.swift */; };
+		C68B21CE27C692A100D76A20 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21CD27C692A100D76A20 /* ImageCollectionViewCell.swift */; };
+		C68B21D327C6A1E200D76A20 /* ImageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21D227C6A1E200D76A20 /* ImageSection.swift */; };
+		C68B21D627C6A2D200D76A20 /* MainImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21D527C6A2D200D76A20 /* MainImageData.swift */; };
+		C68B21DC27C7A0B600D76A20 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21DB27C7A0B600D76A20 /* SecondViewController.swift */; };
+		C68B21DE27C7A9D800D76A20 /* LabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21DD27C7A9D800D76A20 /* LabelCollectionViewCell.swift */; };
+		C68B21E127C7ACE300D76A20 /* SecondViewImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21E027C7ACE300D76A20 /* SecondViewImageData.swift */; };
+		C68B21E327C7EA6600D76A20 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21E227C7EA6600D76A20 /* ThirdViewController.swift */; };
+		C68B21E827C7F76000D76A20 /* ShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21E727C7F76000D76A20 /* ShopData.swift */; };
+		C68B21EA27C7F83A00D76A20 /* ThirdViewShopData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21E927C7F83A00D76A20 /* ThirdViewShopData.swift */; };
+		C68B21ED27C9170D00D76A20 /* ShopInfoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21EB27C9170D00D76A20 /* ShopInfoCollectionViewCell.swift */; };
+		C68B21EE27C9170D00D76A20 /* ShopInfoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68B21EC27C9170D00D76A20 /* ShopInfoCollectionViewCell.xib */; };
+		C68B21F027C92EF300D76A20 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21EF27C92EF300D76A20 /* CreateViewController.swift */; };
+		C68B21F227C9304100D76A20 /* AddShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68B21F127C9304100D76A20 /* AddShopCollectionViewCell.swift */; };
+		C6D2832227CB58EC0017B85A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = C6D2832127CB58EC0017B85A /* SnapKit */; };
+		C6F54F8C27CB6C3000E2F5E3 /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F54F8B27CB6C3000E2F5E3 /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C68B219027C55E3800D76A20 /* RC_Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68B219327C55E3800D76A20 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C68B219527C55E3800D76A20 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C68B219727C55E3800D76A20 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C68B219727C55E3800D76A20 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C68B219A27C55E3800D76A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C68B219C27C55E3800D76A20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C68B219F27C55E3800D76A20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C68B21A127C55E3800D76A20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C68B21A727C55E7300D76A20 /* MenuBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
+		C68B21A927C56DE900D76A20 /* SearchBarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarCollectionViewCell.swift; sourceTree = "<group>"; };
+		C68B21CD27C692A100D76A20 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		C68B21D227C6A1E200D76A20 /* ImageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSection.swift; sourceTree = "<group>"; };
+		C68B21D527C6A2D200D76A20 /* MainImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainImageData.swift; sourceTree = "<group>"; };
+		C68B21DB27C7A0B600D76A20 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C68B21DD27C7A9D800D76A20 /* LabelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		C68B21E027C7ACE300D76A20 /* SecondViewImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewImageData.swift; sourceTree = "<group>"; };
+		C68B21E227C7EA6600D76A20 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		C68B21E727C7F76000D76A20 /* ShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopData.swift; sourceTree = "<group>"; };
+		C68B21E927C7F83A00D76A20 /* ThirdViewShopData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewShopData.swift; sourceTree = "<group>"; };
+		C68B21EB27C9170D00D76A20 /* ShopInfoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopInfoCollectionViewCell.swift; sourceTree = "<group>"; };
+		C68B21EC27C9170D00D76A20 /* ShopInfoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopInfoCollectionViewCell.xib; sourceTree = "<group>"; };
+		C68B21EF27C92EF300D76A20 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		C68B21F127C9304100D76A20 /* AddShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6F54F8B27CB6C3000E2F5E3 /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D2832227CB58EC0017B85A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +92,93 @@
 			children = (
 				C68B219327C55E3800D76A20 /* AppDelegate.swift */,
 				C68B219527C55E3800D76A20 /* SceneDelegate.swift */,
-				C68B219727C55E3800D76A20 /* ViewController.swift */,
+				C68B21D727C7A02D00D76A20 /* ViewController */,
+				C68B21D827C7A06300D76A20 /* SubView */,
+				C68B21D427C6A2BF00D76A20 /* Data */,
+				C68B21CF27C6A1BC00D76A20 /* Type */,
 				C68B219927C55E3800D76A20 /* Main.storyboard */,
 				C68B219C27C55E3800D76A20 /* Assets.xcassets */,
 				C68B219E27C55E3800D76A20 /* LaunchScreen.storyboard */,
 				C68B21A127C55E3800D76A20 /* Info.plist */,
 			);
 			path = RC_Week3;
+			sourceTree = "<group>";
+		};
+		C68B21CF27C6A1BC00D76A20 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21D227C6A1E200D76A20 /* ImageSection.swift */,
+				C68B21E727C7F76000D76A20 /* ShopData.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		C68B21D427C6A2BF00D76A20 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21D527C6A2D200D76A20 /* MainImageData.swift */,
+				C68B21E027C7ACE300D76A20 /* SecondViewImageData.swift */,
+				C68B21E927C7F83A00D76A20 /* ThirdViewShopData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C68B21D727C7A02D00D76A20 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C68B219727C55E3800D76A20 /* MainViewController.swift */,
+				C68B21DB27C7A0B600D76A20 /* SecondViewController.swift */,
+				C68B21E227C7EA6600D76A20 /* ThirdViewController.swift */,
+				C68B21EF27C92EF300D76A20 /* CreateViewController.swift */,
+				C6F54F8B27CB6C3000E2F5E3 /* UpdateViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C68B21D827C7A06300D76A20 /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21E427C7F05800D76A20 /* ThirdView */,
+				C68B21DA27C7A0A400D76A20 /* SecondView */,
+				C68B21D927C7A07100D76A20 /* MainView */,
+				C68B21DF27C7AAB100D76A20 /* Common */,
+			);
+			path = SubView;
+			sourceTree = "<group>";
+		};
+		C68B21D927C7A07100D76A20 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21A727C55E7300D76A20 /* MenuBar.swift */,
+				C68B21A927C56DE900D76A20 /* SearchBarCollectionViewCell.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		C68B21DA27C7A0A400D76A20 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21DD27C7A9D800D76A20 /* LabelCollectionViewCell.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		C68B21DF27C7AAB100D76A20 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21CD27C692A100D76A20 /* ImageCollectionViewCell.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C68B21E427C7F05800D76A20 /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				C68B21EB27C9170D00D76A20 /* ShopInfoCollectionViewCell.swift */,
+				C68B21EC27C9170D00D76A20 /* ShopInfoCollectionViewCell.xib */,
+				C68B21F127C9304100D76A20 /* AddShopCollectionViewCell.swift */,
+			);
+			path = ThirdView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +197,9 @@
 			dependencies = (
 			);
 			name = RC_Week3;
+			packageProductDependencies = (
+				C6D2832127CB58EC0017B85A /* SnapKit */,
+			);
 			productName = RC_Week3;
 			productReference = C68B219027C55E3800D76A20 /* RC_Week3.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +228,9 @@
 				Base,
 			);
 			mainGroup = C68B218727C55E3800D76A20;
+			packageReferences = (
+				C6D2832027CB58EC0017B85A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = C68B219127C55E3800D76A20 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68B21EE27C9170D00D76A20 /* ShopInfoCollectionViewCell.xib in Resources */,
 				C68B21A027C55E3800D76A20 /* LaunchScreen.storyboard in Resources */,
 				C68B219D27C55E3800D76A20 /* Assets.xcassets in Resources */,
 				C68B219B27C55E3800D76A20 /* Main.storyboard in Resources */,
@@ -138,9 +259,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68B219827C55E3800D76A20 /* ViewController.swift in Sources */,
+				C68B21F027C92EF300D76A20 /* CreateViewController.swift in Sources */,
+				C68B21CE27C692A100D76A20 /* ImageCollectionViewCell.swift in Sources */,
+				C68B21ED27C9170D00D76A20 /* ShopInfoCollectionViewCell.swift in Sources */,
+				C68B21EA27C7F83A00D76A20 /* ThirdViewShopData.swift in Sources */,
+				C68B21E127C7ACE300D76A20 /* SecondViewImageData.swift in Sources */,
+				C68B21DE27C7A9D800D76A20 /* LabelCollectionViewCell.swift in Sources */,
+				C68B219827C55E3800D76A20 /* MainViewController.swift in Sources */,
+				C68B21E827C7F76000D76A20 /* ShopData.swift in Sources */,
+				C68B21AA27C56DE900D76A20 /* SearchBarCollectionViewCell.swift in Sources */,
+				C68B21DC27C7A0B600D76A20 /* SecondViewController.swift in Sources */,
 				C68B219427C55E3800D76A20 /* AppDelegate.swift in Sources */,
+				C6F54F8C27CB6C3000E2F5E3 /* UpdateViewController.swift in Sources */,
+				C68B21A827C55E7300D76A20 /* MenuBar.swift in Sources */,
 				C68B219627C55E3800D76A20 /* SceneDelegate.swift in Sources */,
+				C68B21D327C6A1E200D76A20 /* ImageSection.swift in Sources */,
+				C68B21E327C7EA6600D76A20 /* ThirdViewController.swift in Sources */,
+				C68B21D627C6A2D200D76A20 /* MainImageData.swift in Sources */,
+				C68B21F227C9304100D76A20 /* AddShopCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +496,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6D2832027CB58EC0017B85A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6D2832127CB58EC0017B85A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6D2832027CB58EC0017B85A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C68B218827C55E3800D76A20 /* Project object */;
 }
